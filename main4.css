@@ -1,0 +1,114 @@
+.container-1{
+    padding-top: 5rem;
+    padding-left: 8rem;
+    font-size: larger;
+}
+.card-title{
+    font-weight: 900;
+}
+#period{
+    font-weight: 900;
+}
+#side_pic{
+    height: 100%;
+    width: 48%;
+    padding-right: 13rem;
+}
+
+#message{
+    width: 15px;
+}
+.container-2{
+    margin-top: 10rem;     
+}
+.small_pic{
+    margin-top: 3rem;
+}
+#get{
+    background-color: blue;
+}
+.small_pic1{
+    margin-top: 3rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.small_pic2{
+    position: absolute;
+    margin-top: 4.2rem;
+    margin-left: 1.3rem;
+}
+
+.img-fluid{
+    height: 25rem;
+    margin-left: 10rem;
+    width: 20rem;
+    margin-top: 6rem;
+}
+
+.container-4{
+    margin-top: 8rem;
+    margin-left: 10rem;
+}
+
+#big_card{
+    background-color: rgb(48, 48, 228);
+    color: white;
+}
+#learn_more{
+    color: white;
+}
+.container-5{
+    text-align: center;
+    margin-top: 3rem;
+    padding-bottom: 2rem;
+}
+
+#top_left{
+    margin-left:10rem;
+}
+#top_right{
+    margin-left: 20rem;
+}
+
+.small_pic3{
+    margin-top: 5rem;
+    width: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.computer_pic{
+    position: absolute;
+    margin-top: 9rem;
+    margin-left: 3rem;
+}
+#checkmark{
+    position: absolute;
+    margin-top: 9rem;
+    margin-left: 4rem;
+    color: blue;
+}
+#bars{
+    position: absolute;
+    margin-top: 8.2rem;
+    margin-left: 3rem;
+    color: blue;
+}
+#volcano{
+    position: absolute;
+    margin-top: 8.2rem;
+    margin-left: 3.8rem;
+    color: blue;
+}
+.footer{
+    margin-top: 5rem;
+    background-color: blue;
+    text-align: center;
+}
+#footer_card{
+    background-color: blue;
+    color: white;
+}
