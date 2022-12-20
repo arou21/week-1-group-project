@@ -1,15 +1,91 @@
-<!-- "!" + ENTER to start a basic HTML file -->
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <!-- "link" + ENTER shortcut -->
-    <link rel="stylesheet" href="signin.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap Site</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
+    integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"
+    integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/"
+    crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/cd00ffd670.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="./signIn.css">
 </head>
+
 <body>
-    
+
+  <div class="wrapper d-flex">
+    <div class="container">
+      <div class="colum left-column">
+        <div class="col-12"></div>
+
+
+        <div class="box-1">
+          <!-- <div class="row justify-content-start"> -->
+          <div class="col-xs-4 col-sm-3 col-md-3 col-lg-3 col-xl-2 col-xxl-6">
+            <p>
+            <h3>Don't Have an Account Yet?</h3>
+            <p>What are you waiting for? Let's Fix that now!</p>
+            <button type="submit" class="btn btn-primary mb-3">Sing up</button>
+            <img src="/group_15.png" class="img-fluid" alt="logo" width="800" height="800" />
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="colum">
+        <div class="col-12"></div>
+      </div>
+      <div class="box-2">
+        <form style="max-width: 400px;margin:auto;">
+          <div class="row justify-content-start">
+            <div class="mb-3">
+              <h1><label for="formGroupExampleInput" class="form-label">Sign In</label></h1>
+              <div class="input-icons">
+                <input type="text" class="form-control" id="formGroupExampleInput">
+                <i class="fa-light fa-user-large"></i>
+              
+              </div>
+            </div>
+            <div class="mb-3 input-icons">
+              <!-- <label for="formGroupExampleInput2" class="form-label"></label> -->
+              <input type="text" class="form-control" id="formGroupExampleInput2">
+              <i class="fa-light fa-envelope"></i>
+             
+            </div>
+            <div class="mb-3 input-icons">
+              <!-- <label for="formGroupExampleInput2" class="form-label">Another label</label> -->
+              <input type="text" class="form-control" id="formGroupExampleInput3">
+              <i class="fa-solid fa-lock"></i>
+            </div>
+            <button type="submit" class="btn btn-primary mb-3">Sign In</button>
+            <p id="new">
+            <h5>Or Sign in with social platforms</h5>
+            </p>
+          </div>
+          <form style="max-width: 450px; margin: auto">
+            <div class="box-3">
+              <i class="fa-brands fa-facebook"></i>
+              <i class="fa-brands fa-twitter"></i>
+              <i class="fa-brands fa-google"></i>
+              <i class="fa-brands fa-linkedin-in"></i>
+            </div>
+            </div>
+          </form>
+
+      </div>
+
+      
+
+    </div>
+  </div>
+ 
 </body>
+
 </html>
